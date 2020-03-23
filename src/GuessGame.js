@@ -1,5 +1,5 @@
-import React, {useState } from 'react';
-import Test from './Test';
+import React, {useState, useContext } from 'react';
+import Test from './Test,';
 import {View, Text, StyleSheet, TextInput, TouchableWithoutFeedback, Keyboard, Button, TouchableOpacity} from 'react-native';
 
 const GuessGame = () => {
