@@ -1,5 +1,4 @@
 import React, {useState, useContext } from 'react';
-import Test from './Test,';
 import {View, Text, StyleSheet, TextInput, TouchableWithoutFeedback, Keyboard, Button, TouchableOpacity} from 'react-native';
 
 const GuessGame = () => {
@@ -81,7 +80,6 @@ const GuessGame = () => {
       }}>
         <View style = {styles.container}>
           <Text style = {styles.text}>GUESS GAME</Text>
-          <Test/>
           <View style = {styles.test}>
             <TextInput 
               style = {styles.input}
